@@ -4,5 +4,9 @@ body {
 }
 
 div {
-    background-color: blue;
+    background-color: yellow;
+    width: 150px;
+    height: 130px;
+    position: relative;
+    margin-top: 150px;
 }
