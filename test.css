@@ -23,8 +23,8 @@
     div {
         color: white;
         background-color: dimgray;
-        width: 20;
-        height: 20;
+        width: auto;
+        height: auto;
     }
     
     a {
