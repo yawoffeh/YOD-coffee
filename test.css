@@ -1,18 +1,15 @@
 .container {
     display: grid;
     grid-gap: 12px;
-    grid-template-areas: 
-    "header1 header1 header1"
-    "header2 header2 header2"
-    "about about about"
-    "products1   products1  products1"
-    "covid covid covid";
+    grid-template-areas: "header1 header1 header1" "header2 header2 header2" "about about about" "products1   products1  products1" "covid covid covid";
 }
-img{
+
+img {
     height: auto;
     width: auto;
 }
-.header1{
+
+.header1 {
     grid-area: header1;
     height: auto;
     width: auto;
@@ -21,28 +18,31 @@ img{
     font-weight: bold;
     text-align: center;
 }
-.header2{
+
+.header2 {
     grid-area: header2;
     height: auto;
     width: auto;
     font-size: 30px;
     font-weight: bold;
 }
-.about{
+
+.about {
     grid-area: about;
     height: auto;
     width: auto;
     font-family: cursive;
     color: darkgreen;
-
 }
-.products1{
+
+.products1 {
     grid-area: products1;
     height: auto;
     width: auto;
     align-items: center;
 }
-.covid{
+
+.covid {
     grid-area: covid;
     height: auto;
     width: auto;
@@ -50,23 +50,23 @@ img{
     background-image: url(coffee4.jpg);
     font-size: 25px;
 }
-body{
-    background-color: whitesmoke; 
+
+body {
+    background-color: whitesmoke;
 }
 
-img{
-
+img {
     margin-left: 50px;
 }
 
 /*checkout*/
-.item{
+.item {
     text-align: center;
     border: 1px solid green;
     margin: 10px;
 }
 
-.itemName, .quality, button{
+.itemName, .quality, button {
     font-size: 15px;
     margin: 1px;
 }
