@@ -1,7 +1,7 @@
 .container {
     display: grid;
     grid-gap: 12px;
-    grid-template-areas: "header1 header1 header1" "header2 header2 header2" "about about about" "products1   products1  products1" "covid covid covid";
+    grid-template-areas: "header1 header1 header1" "header2 header2 header2" "about about about" "products1   products1  products1" "covid covid covid" "contact contact contact";
 }
 
 img {
@@ -82,3 +82,8 @@ h2, #checkout {
     height: 45px;
     width: 45px;
 }
+
+contact {
+    height: 40px;
+    background-color: blue;
+} 
