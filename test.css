@@ -53,8 +53,6 @@ img {
 
 body {
     background-color: whitesmoke;
-    -webkit-font-smoothing: antialised;
-    -moz-osx-font-smoothing: gray-scale;
 }
 
 img {
@@ -84,8 +82,3 @@ h2, #checkout {
     height: 45px;
     width: 45px;
 }
-
-contact {
-    height: 40px;
-    background-color: blue;
-} 
