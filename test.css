@@ -53,6 +53,8 @@ img {
 
 body {
     background-color: whitesmoke;
+    -webkit-font-smoothing: antialised;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 img {
