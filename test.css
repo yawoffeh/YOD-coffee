@@ -1,12 +1,18 @@
 .container {
     display: grid;
     grid-gap: 12px;
-    grid-template-areas: "header1 header1 header1" "header2 header2 header2" "about about about" "products1   products1  products1" "covid covid covid" "contact contact contact";
+    grid-template-areas: "header1 header1 header1" "header2 header2 header2" "about about about" "products1 products1  products1" "covid covid covid" "contact contact contact";
+}
+
+p {
+	color: white;
+    font-size: 30px;
 }
 
 img {
     height: auto;
     width: auto;
+    margin-left: 70px;
 }
 
 .header1 {
@@ -49,6 +55,11 @@ img {
     color: white;
     background-image: url(coffee4.jpg);
     font-size: 25px;
+    border-radius: 10px;
+}
+
+button:hover {
+    cursor: pointer;
 }
 
 body {
@@ -57,9 +68,6 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
-img {
-    margin-left: 50px;
-}
 
 /*checkout*/
 .item {
@@ -83,4 +91,20 @@ h2, #checkout {
 #cof {
     height: 45px;
     width: 45px;
+}
+
+.contact {
+    width: auto;
+	border-radius: 10px;
+	background-color: gray;
+}
+
+li {
+	color: black;
+    list-style-type: none;
+    font-size: 20px;
+}
+
+#checkout:hover {
+    cursor: pointer;
 }
